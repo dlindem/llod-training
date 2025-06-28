@@ -1,2 +1,2 @@
-wb_bot_user = "DavidL"
-wb_bot_pwd = "z63t6!87~)ux_MJ"
+wb_bot_user = "" # user name here (bot permissions needed)
+wb_bot_pwd = ""
