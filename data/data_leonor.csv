@@ -1,0 +1,163 @@
+LID	Lema	POS	ID	Lema	Sublema	Definição	N.	DLP alinhamento	Exemplo extraído do Sketch Engine	Coocorrente	Observações	Traço(s) Semântico(s)
+L4	antigo	adjetivo	DLP-antigo_1-f0dca	antigo		de outra época	10	relativo à Antiguidade, às épocas anteriores à queda do Império Romano	Pégaso, que era um cavalo da Grécia antiga, voava sobre os montes à beira do mar.	Grécia antiga		temporal
+							1	que existiu em épocas muito anteriores à atual	O anão contava-lhe histórias do passado, histórias de mouros, guerreiros, navegadores, princesas e reis antigos. 	Lisboa antiga		
+						que existe há muito tempo	2	que tem muito tempo de existência 	Mas também nos livros antigos de Ptolomeu e nos livros dos romanos está escrito que ninguém pode passar além do Bojador.			temporal
+						que se deixou de usar	6	que já não se usa, que não é atual	Há também antigas linhas de comboio (onde o comboio já não passa) que agora são utilizadas para andar a pé ou para praticar outros desportos.	moeda antiga; forma antiga; caminho antigo		abstrato_ação
+						que já deixou de trabalhar numa certa profissão 	5	que deixou determinado estado, profissão ou cargo	Quem está a escrever-lhe esta carta é a sua antiga aluna do 1.º ciclo.			abstrato_ação
+L5	branco		DLP-branco_1-86241	branco		que tem a cor da neve, do leite 	1	que tem a cor da neve, da cal, do leite	Sabes porque é que os pandas-gigantes são brancos e pretos? 		"rever 2. (ver a 4)
++ sentido para o que está pálido, lívido.
+rever 4. tendo em conta os exemplos seria um produto alimentar refinado.
+retirar 5? as combinatórias estão corretas? ou deveriam passar para o nível da entrada?"	concreto
+L6	leve		DLP-leve_1-ca9bd	leve		que não é grave	6	que tem pouca importância, pouca gravidade	Acidente ainda causou dois feridos leves 	ferido leve	sentido 9 não será o mesmo do 6? (cf. 8 de ligeiro)	abstrato_estado
+						que tem pouco peso	1	que tem pouco peso	Para andares com uma mochila mais leve prepara-a com o que realmente te faz falta para o dia seguinte.		"rever 16 e 17
+rever 18 e 19
+rever 4 e 5 "	abstrato_estado
+						que é calmo, despreocupado, relaxado 	13	que está aliviado, despreocupado	E tinha inveja das algas que baloiçavam ao sabor das correntes com um ar tão leve e feliz.	ar feliz		abstrato_estado
+						que é simples, pouco difícil	10	que é simples, despretensioso, pouco carregado de ornamento	Nas férias, gosto de ler histórias leves e divertidas, nada de muito sério. 			abstrato_estado
+							11	que trata de assunto banal, pouco profundo, superficial				
+						que é suave ou pouco forte	8	que é pouco percetível pelos sentidos; que é ténue, suave, ligeiro, delicado	Até ao dia em que ouviu um leve TOC, TOC! 		rever 8 e 9	abstrato_estado
+												
+						que é fino; que é pouco espesso	3	que é fino, pouco espesso	Utiliza agasalhos leves.	agasalho leve	"rever exemplos e repensar definição. 
+"	abstrato_estado
+L7	seco		DLP-seco_1-10262	seco		diz-se do alimento desidratado	5	que foi submetido a um processo de eliminação da humidade, garantindo-lhe desse modo a sua conservação 	Mas ela sabia mais histórias, sabia a dos figos e contava todas as voltas que eles levavam até poderem ser chamados de figos secos.	"figo seco
+alperce seco
+alho seco
+fruto seco"		abstrato_estado
+						que não é fresco	3	que perdeu a humidade natural, a frescura	Caiu no escuro, por entre uma camada de fetos secos e musgos ainda húmidos.			abstrato_estado
+						diz-se da parte do corpo que não está molhada ou hidratada	7	diz-se de parte do corpo que não é suficientemente humedecida ou lubrificada pelas secreções	Senti a garganta seca e o coração a disparar.	garganta seca		abstrato_estado
+						que é caracterizado pela falta de água ou humidade	2	que é desprovido de humidade atmosférica	Afinal ainda estamos na estação seca e a chuva  vai demorar algum tempo a chegar!	estação seca		abstrato_estado
+						que é brusco, áspero; que é pouco amável	16	que tem ou denota falta de sensibilidade, de ternura, de amabilidade ou de afabilidade	- Cangurus, cucos e macacos - foi a resposta seca.	resposta seca		abstrato_estado
+L8	agora	advérbio	DLP-agora_1-6142b	agora		usa-se para assinalar o presente	1	no tempo que está a decorrer; no momento presente ou nesta ocasião	Agora ouça o Carlos e verifique se ordenou as frases correctamente. 			temporal
+							3	deste momento em diante 	Já deu aulas em muitas escolas diferentes, mas agora pensa que vai continuar na escola de Sintra.			
+							4	depois disto; dadas estas circunstâncias ou em vista disto	Vamos agora relembrar o que é um adjetivo.			
+							2	na época em que vivemos	Andávamos nós já na quarta classe - agora quarto ano - quando o Válter recebeu uma bicicleta como presente de anos.			
+L9	mesmo		DLP-mesmo_3-31e9e	mesmo		usa-se para indicar intensidade, para reforçar algo	4	em grau elevado, de modo intenso, pleno	Amo-te mesmo, mesmo de verdade.			abstrato_estado
+						usa-se para indicar algo real, preciso	3	na realidade, em verdade, de modo efetivo	Voo mesmo a sério!			concreto
+L10	sempre		DLP-sempre_1-46cfa	sempre		usa-se para indicar todos os momentos ou todo o tempo de duração	1	em todos os momentos no tempo passado, presente ou futuro, indefinidamente; em todo o tempo 	A minha sugestão é que façam uma lista de compras geral, para usarem todas as semanas e não andarem sempre a fazer uma nova. 		ver 4; 5	temporal
+							2	em todos os momentos e de modo constante, contínuo ou repetido, no passado, presente ou futuro; sem parar	Como mora perto da escola, anda sempre a pé. 			abstrato_ação
+						usa-se para indicar algo que não se pode evitar	7	no momento considerado ainda e apesar de todas as circunstâncias contrárias	Eu era a prenda pelo teu décimo segundo aniversário e serias sempre tu a cuidar de mim.		"rever a entrada toda (bom exemplo!)
+mas apenas porque está no condicional"	abstrato_evento
+L11	tarde		DLP-tarde_1-8f647	tarde		depois de um horário ideal ou oportuno 	1	próximo do fim da noite	Mas o problema é que os filmes melhores normalmente passam tarde.			"temporal
+"
+							2	próximo do fim da manhã 				
+							5	depois do momento considerado oportuno; além do tempo esperado ou conveniente; depois da ocasião própria			ver 1;2;4	
+					mais tarde	algo que acontece depois; num momento posterior		em momento ulterior	Quando acabei o 12.° ano, fui para a universidade fazer um curso para mais tarde trabalhar na televisão.	mais tarde		temporal
+L12	braço	nome	DLP-braco_1-795dd	braço		membro superior do corpo humano, do ombro à mão	1	cada um dos membros superiores do corpo humano, do ombro até à mão	Põem-nos no seu colo e protegem-nos com os braços.		ou ombro e cotovelo	"humano
+concreto"
+							2	parte do membro superior compreendida entre o ombro e o cotovelo				
+L13	conta		DLP-conta_1-ef0ad	conta		operação matemática 	0	ato ou efeito de contar	És capaz de fazer as contas à quantidade de água gasta por toda a família?			abstrato_ação
+							1	operação aritmética para calcular ou determinar uma quantidade, um valor; resultado obtido nessa operação	- Não acertas nas contas, mas acertas nas montras.			
+						resultado de uma compra 	2	valor ou importância de uma despesa; total do que se deve	A demora no momento de pagar a conta.			"abstrato_evento
+abstrato_ação"
+							3	fatura, documento onde está discriminado o que se deve				
+						despesas de uma pessoa, normalmente mensais		- 	Deixar as contas pagas.		sem equivalente	"concreto
+humano"
+					perder a conta	deixar de saber a quantidade de algo		perder a noção da quantidade	Tocar nos dedos enquanto contas ajuda-te a não perder a conta.		uniformizar a definição com a que está na entrada perder	abstrato_estado
+					fazer de conta	fingir ou imaginar algo	1	fingir	Uma das nossas brincadeiras era atar uma corda a dois paus e fazer de conta que eram duas vacas.			abstrato_ação
+					dar conta	reparar ou perceber algo		notar, reparar, perceber	O meu telemóvel pôs-se a fazer chamadas sem eu dar conta.			abstrato_ação
+					vezes sem conta 	repetição 		vezes sem fim	"""Mais"" era uma palavra que ela dizia vezes e vezes sem conta."			"abstrato_estado
+abstrato_ação"
+					tomar conta	cuidar de algo ou alguém		encarregar-se; olhar por	Era ela que tomava conta dos onze filhos do moleiro.			abstrato_ação
+L14	língua		DLP-lingua_1-e2f31	língua		forma de comunicação do ser humano	3	sistema de signos vocais, que podem ser transcritos graficamente, comum a um povo, a uma nação, a uma cultura e que constitui o seu instrumento de comunicação	O nosso trabalho é encontrar pessoas que falam línguas diferentes do português. 			"concreto
+humano
+abstrato_ação"
+						órgão móvel e comprido que está no interior da boca	1	órgão carnudo, musculoso, alongado e móvel, situado na cavidade bucal que serve para a degustação, para a deglutição e, no homem e em outros animais, para a articulação de sons	Pensam se devem ou não dar as mãos e deitar a língua de fora.	língua de fora		"concreto
+humano
+animal"
+					língua oficial 	aquela que é reconhecida por um Estado		a que é reconhecida estatutariamente por um Estado na qual são redigidos os textos oficiais por ele emanados	A língua portuguesa além de ser uma das línguas oficiais de Timor-Leste, é também falada em outros países do mundo.			"humano
+concreto"
+					na ponta da língua	aquilo pronto a ser dito		sem hesitações nem dúvidas; muito bem	Tem sempre um facto científico na ponta da língua e adora partilhá-lo. 			"ação_estado
+humano"
+L15	pena		DLP-pena_1-27e11	pena		sentimento de tristeza  causado por algo ou alguém que se encontra numa situação negativa	1	sentimento suscitado por alguém ou alguma coisa que se encontra em estado de carência ou degradação	Martinho, que era bondoso e gostava de ajudar as pessoas mais pobres, ao ver o velho mendigo, ficou cheio de pena dele. 			"abstrato_estado
+humano"
+							2	sentimento que se exprime por insatisfação e tristeza	Divertiam-se muito assim e, quando se separavam, sentiam sempre imensa pena. 			
+						aquilo que cobre, tapa o corpo das aves	1	órgão que cobre o corpo das aves, protegendo-o e permitindo a execução e orientação do voo, formado por uma haste flexível guarnecida de barbas	Um tinha penas, o outro, pelo.			"concreto
+animal"
+			"DLP-pena_3-27e11
+
+"		valer a pena	merecer o esforço ou o interesse		não merecer o esforço, a preocupação	É desagradável falar de dinheiro, não vale a pena.		valer de nível fácil. valer a pena - muito fácil	abstrato_evento
+L16	com	preposição	DLP-com_1-4d236	com		indica o meio, objeto ou instrumento com que se faz algo	9	meio, instrumento	Leve ao forno durante cerca de 30 minutos numa forma previamente untada com margarina e polvilhada com farinha.			"concreto
+abstrato_ação"
+							14	matéria				
+						indica o modo de fazer algo 	6	modo	E nós sabemos que só a massa trabalhada com amor resulta.			"concreto
+abstrato_ação"
+						indica posse	2	posse	Regressava à minha cidade, com uma mala e uma mochila.			"concreto
+abstrato_estado"
+						indica qualidade ou condição	3	qualidade ou estado, marcando a presença de uma característica inerente ou momentânea 	Estava a ficar cansado e com fome.			"concreto
+abstrato_estado"
+						indica relação entre algo ou alguém	1	companhia, presença física e relações entre pessoas	Está com problemas profissionais com os colegas e com os chefes.		ver parte II e III da entrada.	concreto
+L17	desde		DLP-desde_1-9ba6a	desde	desde que 	indica uma condição 	1	desde que	Também são importantes os ralhetes - desde que justificados.			abstrato_estado
+						indica o ponto no tempo ou espaço em que algo teve início	2	desde que	Esta semana assinalam-se dez anos desde que me mudei para Lisboa.			"temporal
+locativo"
+						indica variedade entre elementos	II - 3	heterogeneidade dos elementos de um conjunto	As brincadeiras no banho, as musiquinhas que lhe cantares, aquilo que lhe ensinares - desde os livros aos carros - e até todas as vezes que a levares à bola: ela não se vai esquecer! 			"coletivo
+abstrato_estado"
+						indica o ponto no tempo ou espaço em que algo teve início	I - 1	ponto (no tempo ou no espaço) em que se inicia uma ação; processo ou estado de coisas	Uma abóbora que cá estava desde Outubro foi finalmente aberta.			"temporal
+locativo"
+							I - 2	ponto de partida numa escala graduada	Os gatos não gostam de tomar banho e têm medo da água, pelo que devem ser habituados desde jovens.			
+L18	durante		DLP-durante_1-a0864-1	durante		indica a duração de um acontecimento ou evento 	2	indica duração ou tempo contínuo em que decorre uma ação, um processo ou um estado	Lisboa tinha sido boa para mim durante quatro anos.			"temporal
+abstrato_evento"
+						indica o intervalo de tempo de algum acontecimento ou evento	1	situa numa ação, um processo ou um estado num dado período ou espaço de tempo que lhe é simultâneo, sendo para parafraseável por «no tempo de», «no decorrer de»	Obrigada pelos votos de confiança e por terem aceitado o meu lema durante o confinamento.			"temporal
+abstrato_ação
+"
+L19	entre		DLP-entre_1-d38e8	entre		indica um intervalo entre duas ou mais opções	III - 2	"quantidade intermédia no interior de dois limites indicados; valor aproximado
+"	Um gato de pelo curto pode tomar entre 3 a 4 banhos por ano.			concreto
+												
+						indica relação entre duas ou mais pessoas ou coisas	I - 5	relação entre pessoas, traduzindo noções diversas como a reciprocidade, a união, a cooperação, a partilha	Só tem piada quando é para ser partilhada entre família e amigos.			coletivo
+						indica  alternativa ou escolha	I - 4	disjunção	Adoras programas entre amigos ou em família.			abstrato_ação
+L20	cada	pronome	DLP-cada_1-04a5d	cada		refere a parte individual de um todo	II	usa-se, por vezes, com valor de pronome: indica todo e qualquer elemento de um grupo, considerado individualmente, sendo semanticamente equivalente a «cada um»	É um desporto coletivo jogado entre duas equipas de 11 jogadores cada.			concreto
+L21	isso		DLP-isso_1-902d8	isso		refere algo que já foi dito ou mencionado 	2	refere algo já mencionado ou a seguir explicitado	Eu sei que os blogs se querem leves e inspiradores mas não me identifico muito com isso.			abstrato_evento
+					por isso	introduz uma conclusão		por esta razão	Já tenho, por isso, planos para entrar no mercado de trabalho, futuramente. 			abstrato_ação
+					para isso 	introduz uma condição para conseguir algo		-	Para isso, temos de prestar atenção à forma como são produzidos os nossos alimentos. 		sem equivalente	abstrato_ação
+L22	quanto		DLP-quanto_1-5c5ff	quanto		refere um número ou valor de objetos, pessoas ou ações 	2	indica pessoas, coisas ou coisa com valor indeterminado de totalidade e apresenta função de sujeito ou de complemento, sendo parafraseável por «(todos) os que», «(todas) as que», «(tudo) o que» e podendo estar precedido ou não dos pronomes indefinidos todos, todas, tudo	Na sua vez, cada jogador lança o dado e desloca o seu peão colorido tantas casas quanto o dado indica. sempre seguindo a ordem crescente das casas. 			"concreto
+"
+							3	indica pessoas, coisas ou coisa com valor demonstrativo, apresentando maior ou menor proximidade em relação às pessoas do discurso e pode desempenhar função de sujeito ou de complemento, sendo parafraseável por «aquele(s) que», «aquela(s) que», «aquilo que» ou por «o(s) que», «a(s) que»	Um poeta inclina-se sobre os seus poemas: vinte foi quantos escreveu.			
+			DLP-quanto_2-5c5ff				1	usa-se em frases interrogativas, diretas ou indiretas, em posição pré-nominal e com função de determinante e indica interrogação em relação ao número ou à quantidade de pessoas ou coisas, sendo parafraseável por «que número de», «que quantidade de»	Quantas vezes é que já saí de grandes superfícies de mãos a abanar?	quantas vezes		
+					uns quantos	indica algumas pessoas ou coisas; uma quantidade indeterminada		algumas pessoas ou coisas	Fiz sopa para a semana e ainda uns quantos frascos de compota.			abstrato_estado
+L23	todo		DLP-todo_1-ea5cb	todo		indica o total 	1	qualquer elemento de entre um conjunto de semelhantes, com valor distributivo, e usa-se no singular 	Fomos todos passar duas semanas ao Algarve.			"coletivo
+abstrato_estado"
+							2	integridade de pessoa ou coisa, com valor adjetival, e usa-se no singular, omitindo-se o artigo definido, quando seguido de pronome pessoal 	Naquele momento aquele pequeno ser é a nossa vida toda. 			
+					ao todo			por junto; no total	Ao todo estão cá cerca de 80 pessoas.		sem equivalente. está na entrada relativa ao nome. alterar para pronome	
+					de uma vez por todas 	por última vez e de forma definitiva		-	Vem para que, de uma vez por todas, o que sinto possa fazer sentido. 		é locução adverbial	concreto
+L24	bater	verbo	DLP-bater_1-3c5b2	bater		dar toques ou pancadas com alguma parte do corpo ou com um objeto	7	dar um ou mais pequenos toques ou pancadas em	Certo dia, o pai encontrou Dinis a bater numa parede com o nariz.			abstrato_ação
+							8	dar pequenas pancadas com nós dos dedos ou com qualquer objeto numa porta, para pedir entrada	A tua mãe bateu à porta do quarto.	bater à porta	7,8,9 iguais?	
+							9	dar várias pancadas com as mãos ou com um instrumento numa superfície, num objeto ou fazê-la embater contra algum obstáculo	Outras gostam de fazer barulho na noite de passagem de ano, batendo com as tampas das panelas para afugentar o ano velho. 		ver  3 e 4	
+						chocar ou fazer chocar uma coisa em outra	5	fazer chocar ou chocar uma coisa com outra, com força	A chuva bate furiosamente na janela, o vento agita as cortinas.		o mesmo?	abstrato_ação
+							6	ir, um automóvel, contra outro ou contra um obstáculo	Ele teve um acidente: bateu de frente.			
+					bater (as) palmas	chocar as palmas da mãos uma contra a outra para demonstrar agrado, para aplaudir		dar com a palma de uma mão na outra repetidamente para exprimir aplauso ou para mostrar alegria	Ela sentia-se tão feliz que começou a bater palmas de alegria			"abstrato_ação
+humano"
+L25	casar		DLP-casar_1-adcfd	casar		unir ou unirem-se através do casamento	2	unir-se a alguém através do casamento	As três acabaram por casar com resineiros.		ver 1	"humano
+abstrato_ação
+abstrato_evento"
+							3	promover o casamento de alguém	Podes casar com a minha filha, podes ser rei quando eu morrer, podes ser tudo o que tu quiseres!		ver citação de 3	
+L26	sair		DLP-sair_1-21552	sair		ir a algum lugar por diversão	4	deixar temporariamente o local onde se habita para tomar parte em atividades de caráter social ou lúdico	Excelente para sair à noite com os amigos.	sair à noite	o mesmo?	"humano
+abstrato_ação
+abstrato_evento"
+							21	ir para fora de casa partilhando com alguém uma diversão ou outra atividade social				
+						deixar um lugar 	1	abandonar o local onde se está; passar do interior de um espaço fechado para o exterior	Depois de a minha mãe sair do quarto, aconteceu uma coisa estranha.			"abstrato_ação
+locativo"
+							2	abandonar o local onde se está com o objetivo de ir fazer alguma coisa	"Ao sair para a escola a mãe disse-lhe: 
+-Volta depressa porque há muita roupa para lavar. "		"ver 14, 15 e 16
+ver 23 e 24"	
+							3	deixar o local onde se trabalha ou estuda, concluída a tarefa diária	Tenho saído do escritório todos os dias pelas onze horas da noite. 			
+							5	abandonar, um meio de transporte, a estação de embarque, rumo ao seu destino	Se algum barco sai hoje ao mar, afunda-se!			
+					sair do forno	passar de fora para dentro	1	passar do interior de um espaço fechado para o exterior	Já agora, todos os dias, temos pão quentinho a sair do forno.	sair do forno	"É uma combinatória? >> coocorrente privilegiado
+com o sentido de algo fresco, recentemente feito, apresentado. Exemplos online:
+- Uma novidade da @planetatangerina acabada de sair do forno!
+- Celeste lança novidades acabadas de sair do forno.
+- Cinco novos livros de cozinha acabados de sair do forno."	"abstrato_ação
+locativo"
+L27	vender		DLP-vender_1-1a19b	vender		trabalhar como vendedor 	3	exercer a profissão de vendedor por conta própria ou por conta de outrem; fazer comércio de determinada mercadoria	Faz bolinhos que a nossa avó vende no mercado, todas as manhãs. 			"humano
+abstrato_estado"
+						trocar algo por dinheiro	1	passar alguma coisa para a posse de alguém, em troca de determinada quantia em dinheiro; fazer a venda de	As castanhas assadas vendem-se nas ruas das cidades portuguesas 		ver 8 e 9	"humano
+abstrato_ação"
+							2	ter, um estabelecimento, uma firma comercial, determinada mercadoria disponível para compra; ter para venda	É uma pequena loja que vende jornais e revistas.		1 e 2 não pode ser só uma definição?	
+L28	perder		DLP-perder_1-03f95	perder		ignorar onde algo ou alguém se encontra 	4	ser comprado com facilidade pelo público; ser vendável	É o terceiro bolo mais vendido nas pastelarias.			abstrato_estado
+							14	não saber onde se encontra, onde pôs, deixou ou colocou	Colocou a mala da senhora no chão e perdeu o dinheiro. 		ver exemplos em 16	
+						ficar desorientado ou distraído		-	Ficou perdido no meio das letras.		"sem equivalente
+equivalente em perder-se, enquanto verbo pronominal"	abstrato_estado
+						chegar atrasado	12	não apanhar um veículo, um meio de transporte, por ter chegado atrasado	la perder o comboio, de certeza!		"alterar 12 para incluir 13?
+alterar definição de 13 para algo com o sentido de ""não estar presente""?"	"humano
+abstrato_ação"
+						ficar sem algo que se tinha	5	deixar de ter, de possuir, uma característica, qualidade, defeito; ficar privado de; ficar sem	O início era bom, mas depois perde o interesse.		ver 10	abstrato_evento
+					a não perder	algo que deve ser visto ou feito 		-	Para mim, há dois sítios a não perder em Portugal. 		sem equivalente	abstrato_ação
+					perder a conta	deixar de saber a quantidade de algo		deixar de saber quantos são	Tocar nos dedos enquanto contas ajuda-te a não perder a conta.		uniformizar a definição com a que está na entrada conta	abstrato_estado
