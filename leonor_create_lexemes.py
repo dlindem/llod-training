@@ -1,4 +1,4 @@
-import wikibase, csv, time
+import llodtr_wikibase, csv, time
 
 pos_mapping = {"adjetivo": "Q6",
                "advérbio": "Q9",
@@ -25,9 +25,9 @@ with open ('data/data_leonor.csv') as file:
             if row["POS"] != "":
                 lex_cat = pos_mapping[row["POS"]]
                 print(f"Found POS {lex_cat}")
-            new_lexeme = wikibase.bot.lexeme.new(lexical_category=lex_cat, language="Q4")
+            new_lexeme = llodtr_wikibase.bot.lexeme.new(lexical_category=lex_cat, language="Q4")
             new_lexeme.lemmas.set(language="pt", value=row["Lema"])
-            new_lexeme.claims.add(wikibase.ExternalID(prop_nr="P9", value=row["ID"])) # takes for granted that lines with a lemma have something in column "ID"
+            new_lexeme.claims.add(llodtr_wikibase.ExternalID(prop_nr="P9", value=row["ID"])) # takes for granted that lines with a lemma have something in column "ID"
             print(new_lexeme.get_json())
             new_lexeme.write()
 

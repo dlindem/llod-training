@@ -67,6 +67,7 @@ print(f"Got {len(entries)} SPARQL results.")
 
 for entry in entries:
 	print(entry)
+	print(entry.lemma.language)
 # 	entrycount += 1
 # 	entryuri = str(entry.entryuri)
 # 	lemmas = str(entry.lemmas)

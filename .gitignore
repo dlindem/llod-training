@@ -1,5 +1,4 @@
 
 /.idea
-config_private.py
 /__pycache__
-config_private.py
+*config_private*
