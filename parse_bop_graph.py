@@ -2,7 +2,7 @@ from rdflib import Graph, URIRef
 import time, sys
 
 # # load existing lexemes lookup table
-# with open('data/lexeme-mapping.csv') as mappingcsv:
+# with open('data/bop_lexeme-mapping.csv') as mappingcsv:
 # 	mappingrows = mappingcsv.read().split('\n')
 # 	lexeme_map = {}
 # 	for row in mappingrows:
@@ -13,7 +13,7 @@ import time, sys
 # print(f'Loaded {str(len(lexeme_map))} existing lexeme mappings.')
 
 pos_map = {
-	"noun": "Q7",
+	"noun": "Q11",
 	"none": "Q12"
 }
 
@@ -24,10 +24,10 @@ lang_map = {
 }
 
 gender_map = {
-	"none": "Q17",
-	"masculine": "Q18",
-	"feminine": "Q19",
-	"neuter": "Q20"
+	"none": "",
+	"masculine": "",
+	"feminine": "",
+	"neuter": ""
 }
 
 rdffile = "data/bop_data.rdf"
@@ -47,10 +47,10 @@ for ns_prefix, namespace in g.namespaces():
 
 # get entry level information
 entry_query = """
-SELECT ?entryuri ?lemma 
-?language ?pos ?gender 
-?definition (group_concat(distinct ?form) as ?forms) 
-# select distinct ?gender
+# SELECT ?entryuri ?lemma 
+# ?language ?pos ?gender 
+# ?definition (group_concat(distinct ?form) as ?forms) 
+select distinct ?pos
 
 WHERE {
 	?entryuri a ontolex:LexicalEntry ; rdfs:label ?lemma ; otv:language ?language.
@@ -65,9 +65,17 @@ entries = g.query(entry_query, initNs=namespaces)
 entrycount = 0
 print(f"Got {len(entries)} SPARQL results.")
 
+count = 0
 for entry in entries:
 	print(entry)
-	print(entry.lemma.language)
+	continue
+	count += 1
+	print(f"[{count}/{len(entries)}] Now processing: {entry}")
+	BOP_id = str(entry.entryuri)
+	print(f"BOP ID is: {BOP_id}")
+	lemma = str(entry.lemma)
+	lang = entry.lemma.language
+	pos = pos_map[entry.pos]
 # 	entrycount += 1
 # 	entryuri = str(entry.entryuri)
 # 	lemmas = str(entry.lemmas)
