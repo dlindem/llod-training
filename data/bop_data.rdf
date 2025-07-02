@@ -1994,7 +1994,7 @@ gegenübersteht. (Quelle: SNB 2020).</skos:example>
         <skos:narrower rdf:resource="#Resource_over-which-ownership-rights-are-enforced_from-which-future-economic-benefits-may-flow-to-the-owner"/>
     </skos:Concept>
 
-    <skos:Concept rdf:about="#Entity_entitlement_to_own_assets_ability_to_take_economic_decisions_ability_to_enter_into_contracts_economic_activities_and_transactions_complete_set_of_accounts_collective_consumption_GS_pooling_at_least_part_of_income_and_wealth_sharing_the_same_living_accommodation_existence_depends_on_persons">
+    <skos:Concept rdf:about="#problem_entry_1">
         <skos:inScheme rdf:resource="http://www.ontologia.fr/OTB/BOP"/>
         <rdfs:label xml:lang="de">privater Haushalt</rdfs:label>
         <skos:prefLabel xml:lang="de">privater Haushalt</skos:prefLabel>

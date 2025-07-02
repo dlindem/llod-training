@@ -19,6 +19,7 @@ from wikibaseintegrator.wbi_config import config as wbi_config
 
 import bop_config_private
 
+# this block is always the same
 wbi_config['BACKOFF_MAX_TRIES'] = 5
 wbi_config['BACKOFF_MAX_VALUE'] = 3600
 wbi_config['USER_AGENT'] = "bot based on wikibaseintegrator"
@@ -27,13 +28,14 @@ wbi_config['DISTINCT_VALUES_CONSTRAINT_QID'] = None # 'Q21502410'
 wbi_config['COORDINATE_GLOBE_QID'] = 'http://www.wikidata.org/entity/Q2'
 wbi_config['CALENDAR_MODEL_QID'] = 'http://www.wikidata.org/entity/Q1985727'
 
+#this block depends on your wikibase
 wbi_config['MEDIAWIKI_API_URL'] = 'https://bop-ontoterminology.wikibase.cloud/w/api.php'
 wbi_config['MEDIAWIKI_INDEX_URL'] = "https://bop-ontoterminology.wikibase.cloud/w/index.php"
 wbi_config['MEDIAWIKI_REST_URL'] = "https://bop-ontoterminology.wikibase.cloud/w/rest.php"
 wbi_config['SPARQL_ENDPOINT_URL'] = "https://bop-ontoterminology.wikibase.cloud/query/sparql"
 wbi_config['WIKIBASE_URL'] = "https://bop-ontoterminology.wikibase.cloud"
 wbi_config['DEFAULT_LANGUAGE'] = 'en'
-wbi_config['DEFAULT_LEXEME_LANGUAGE'] = "Q207" # This is for Lexemes. Value None raises error.
+wbi_config['DEFAULT_LEXEME_LANGUAGE'] = "Q1" # This is for Lexemes. Value None raises error.
 
 login = wbi_login.Login(user=bop_config_private.wb_bot_user, password=bop_config_private.wb_bot_pwd)
 bot = WikibaseIntegrator(login=login)

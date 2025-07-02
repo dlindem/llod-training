@@ -1,34 +1,34 @@
 from rdflib import Graph, URIRef
-import time, sys
+import time, sys, bop_wikibase
 
-# # load existing lexemes lookup table
-# with open('data/bop_lexeme-mapping.csv') as mappingcsv:
-# 	mappingrows = mappingcsv.read().split('\n')
-# 	lexeme_map = {}
-# 	for row in mappingrows:
-# 		print(row)
-# 		mapping = row.split('\t')
-# 		if len(mapping) == 2:
-# 			lexeme_map[mapping[0]] = mapping[1]
-# print(f'Loaded {str(len(lexeme_map))} existing lexeme mappings.')
+# load existing entities lookup table
+with open('data/bop_concept_map.csv') as mappingcsv:
+	mappingrows = mappingcsv.read().split('\n')
+	entity_map = {}
+	for row in mappingrows:
+		print(row)
+		mapping = row.split('\t')
+		if len(mapping) == 2:
+			entity_map[mapping[0]] = mapping[1]
+print(f'Loaded {str(len(entity_map))} existing entity mappings.')
 
-pos_map = {
-	"noun": "Q11",
-	"none": "Q12"
-}
-
-lang_map = {
-	"de": "Q13",
-	"en": "Q15",
-	"fr": "Q14"
-}
-
-gender_map = {
-	"none": "",
-	"masculine": "",
-	"feminine": "",
-	"neuter": ""
-}
+# pos_map = {
+# 	"noun": "Q11",
+# 	"none": "Q12"
+# }
+#
+# lang_map = {
+# 	"de": "Q13",
+# 	"en": "Q15",
+# 	"fr": "Q14"
+# }
+#
+# gender_map = {
+# 	"none": "",
+# 	"masculine": "",
+# 	"feminine": "",
+# 	"neuter": ""
+# }
 
 rdffile = "data/bop_data.rdf"
 # dictitem = "Q38"
@@ -50,15 +50,23 @@ entry_query = """
 # SELECT ?entryuri ?lemma 
 # ?language ?pos ?gender 
 # ?definition (group_concat(distinct ?form) as ?forms) 
-select distinct ?pos
+# 
+# 
+# WHERE {
+# 	?entryuri a ontolex:LexicalEntry ; rdfs:label ?lemma ; otv:language ?language.
+# 			optional { ?entryuri otv:partOfSpeech ?pos .} 
+# 			optional { ?entryuri otv:gender ?gender . }
+# 			optional { ?entryuri skos:definition ?definition . }
+# 			optional { ?entryuri ontolex:lexicalForm [ontolex:writtenRep ?form] . }
+# } group by ?entryuri ?lemma ?language ?pos ?gender ?definition ?forms
 
-WHERE {
-	?entryuri a ontolex:LexicalEntry ; rdfs:label ?lemma ; otv:language ?language.
-			optional { ?entryuri otv:partOfSpeech ?pos .} 
-			optional { ?entryuri otv:gender ?gender . }
-			optional { ?entryuri skos:definition ?definition . }
-			optional { ?entryuri ontolex:lexicalForm [ontolex:writtenRep ?form] . }
-} group by ?entryuri ?lemma ?language ?pos ?gender ?definition ?forms
+SELECT ?concept (group_concat(?label_lang; SEPARATOR="|") as ?label_group)
+
+where {?concept a skos:Concept; rdfs:label ?label.
+bind(concat(str(?label),"@",lang(?label)) as ?label_lang)
+} group by ?concept ?label_group
+
+
 """
 print('Getting entries info with sparql...')
 entries = g.query(entry_query, initNs=namespaces)
@@ -67,15 +75,46 @@ print(f"Got {len(entries)} SPARQL results.")
 
 count = 0
 for entry in entries:
-	print(entry)
-	continue
+
 	count += 1
 	print(f"[{count}/{len(entries)}] Now processing: {entry}")
-	BOP_id = str(entry.entryuri)
+	BOP_id = str(entry.concept).replace("http://www.ontologia.fr/OTB/BOP#","")[:400]
 	print(f"BOP ID is: {BOP_id}")
-	lemma = str(entry.lemma)
-	lang = entry.lemma.language
-	pos = pos_map[entry.pos]
+	if BOP_id in entity_map:
+		input(f"The BOP concept {BOP_id[:40]} is already there.... skipped concept creation.\n")
+		continue
+
+
+	concept_labels = entry.label_group.split("|")
+	print(f"labels are {concept_labels}")
+
+	new_concept = bop_wikibase.bot.item.new()
+	new_concept.claims.add(bop_wikibase.ExternalID(prop_nr="P6", value=BOP_id))
+	for concept_label in concept_labels:
+		label_split = concept_label.split("@")
+		new_concept.labels.set(language=label_split[1], value=label_split[0])
+	new_concept.write()
+	print(f"Successfully created wikibase item https://bop-ontoterminology.wikibase.cloud/entity/{new_concept.id}")
+	with open('data/bop_concept_map.csv', 'a') as file:
+		file.write(f"{BOP_id}\t{new_concept.id}\n")
+	time.sleep(1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	# lemma = str(entry.lemma)
+	# lang = entry.lemma.language
+	# pos = pos_map[entry.pos]
 # 	entrycount += 1
 # 	entryuri = str(entry.entryuri)
 # 	lemmas = str(entry.lemmas)

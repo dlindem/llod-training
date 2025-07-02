@@ -12,23 +12,23 @@ import time, sys
 # 			lexeme_map[mapping[0]] = mapping[1]
 # print(f'Loaded {str(len(lexeme_map))} existing lexeme mappings.')
 
-# pos_map = {
-# 	"noun": "Q11",
-# 	"none": "Q12"
-# }
-#
-# lang_map = {
-# 	"de": "Q13",
-# 	"en": "Q15",
-# 	"fr": "Q14"
-# }
-#
-# gender_map = {
-# 	"none": "",
-# 	"masculine": "",
-# 	"feminine": "",
-# 	"neuter": ""
-# }
+pos_map = {
+	"noun": "Q11",
+	"none": "Q12"
+}
+
+lang_map = {
+	"de": "Q13",
+	"en": "Q15",
+	"fr": "Q14"
+}
+
+gender_map = {
+	"none": "",
+	"masculine": "",
+	"feminine": "",
+	"neuter": ""
+}
 
 rdffile = "data/GenderDysphoria.ttl"
 # dictitem = "Q38"
