@@ -1,0 +1,20 @@
+subentry_of,lemma,sense_num,definition,example,coocurrente,semfeat
+L11,mais tarde,,em momento ulterior,"Quando acabei o 12.° ano, fui para a universidade fazer um curso para mais tarde trabalhar na televisão.",mais tarde,temporal
+L13,perder a conta,,perder a noção da quantidade,Tocar nos dedos enquanto contas ajuda-te a não perder a conta.,,abstrato_estado
+L13,fazer de conta,1,fingir,Uma das nossas brincadeiras era atar uma corda a dois paus e fazer de conta que eram duas vacas.,,abstrato_ação
+L13,dar conta,,"notar, reparar, perceber",O meu telemóvel pôs-se a fazer chamadas sem eu dar conta.,,abstrato_ação
+L13,vezes sem conta,,vezes sem fim,"""Mais"" era uma palavra que ela dizia vezes e vezes sem conta.",,abstrato_estado  abstrato_ação
+L13,tomar conta,,encarregar-se; olhar por,Era ela que tomava conta dos onze filhos do moleiro.,,abstrato_ação
+L14,língua oficial,,a que é reconhecida estatutariamente por um Estado na qual são redigidos os textos oficiais por ele emanados,"A língua portuguesa além de ser uma das línguas oficiais de Timor-Leste, é também falada em outros países do mundo.",,humano  concreto
+L14,na ponta da língua,,sem hesitações nem dúvidas; muito bem,Tem sempre um facto científico na ponta da língua e adora partilhá-lo.,,ação_estado  humano
+L15,valer a pena,,"não merecer o esforço, a preocupação","É desagradável falar de dinheiro, não vale a pena.",,abstrato_evento
+L17,desde que,1,desde que,Também são importantes os ralhetes - desde que justificados.,,abstrato_estado
+L21,por isso,,por esta razão,"Já tenho, por isso, planos para entrar no mercado de trabalho, futuramente.",,abstrato_ação
+L21,para isso,,-,"Para isso, temos de prestar atenção à forma como são produzidos os nossos alimentos.",,abstrato_ação
+L22,uns quantos,,algumas pessoas ou coisas,Fiz sopa para a semana e ainda uns quantos frascos de compota.,,abstrato_estado
+L23,ao todo,,por junto; no total,Ao todo estão cá cerca de 80 pessoas.,,
+L23,de uma vez por todas,,-,"Vem para que, de uma vez por todas, o que sinto possa fazer sentido.",,concreto
+L24,bater (as) palmas,,dar com a palma de uma mão na outra repetidamente para exprimir aplauso ou para mostrar alegria,Ela sentia-se tão feliz que começou a bater palmas de alegria,,abstrato_ação  humano
+L26,sair do forno,1,passar do interior de um espaço fechado para o exterior,"Já agora, todos os dias, temos pão quentinho a sair do forno.",sair do forno,abstrato_ação  locativo
+L28,a não perder,,-,"Para mim, há dois sítios a não perder em Portugal.",,abstrato_ação
+L28,perder a conta,,deixar de saber quantos são,Tocar nos dedos enquanto contas ajuda-te a não perder a conta.,,abstrato_estado
