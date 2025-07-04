@@ -1,0 +1,30 @@
+Wikibase L-ID	sense_num	Definition	Example	Coocorrente	semfeat
+L19	I - 5	relação entre pessoas, traduzindo noções diversas como a reciprocidade, a união, a cooperação, a partilha	Só tem piada quando é para ser partilhada entre família e amigos.		coletivo
+L19	I - 4	disjunção	Adoras programas entre amigos ou em família.		abstrato_ação
+L20	II	usa-se, por vezes, com valor de pronome: indica todo e qualquer elemento de um grupo, considerado individualmente, sendo semanticamente equivalente a «cada um»	É um desporto coletivo jogado entre duas equipas de 11 jogadores cada.		concreto
+L21	2	refere algo já mencionado ou a seguir explicitado	Eu sei que os blogs se querem leves e inspiradores mas não me identifico muito com isso.		abstrato_evento
+L22	2	indica pessoas, coisas ou coisa com valor indeterminado de totalidade e apresenta função de sujeito ou de complemento, sendo parafraseável por «(todos) os que», «(todas) as que», «(tudo) o que» e podendo estar precedido ou não dos pronomes indefinidos todos, todas, tudo	Na sua vez, cada jogador lança o dado e desloca o seu peão colorido tantas casas quanto o dado indica. sempre seguindo a ordem crescente das casas. 		concreto 
+L22	3	indica pessoas, coisas ou coisa com valor demonstrativo, apresentando maior ou menor proximidade em relação às pessoas do discurso e pode desempenhar função de sujeito ou de complemento, sendo parafraseável por «aquele(s) que», «aquela(s) que», «aquilo que» ou por «o(s) que», «a(s) que»	Um poeta inclina-se sobre os seus poemas: vinte foi quantos escreveu.		
+L22	1	usa-se em frases interrogativas, diretas ou indiretas, em posição pré-nominal e com função de determinante e indica interrogação em relação ao número ou à quantidade de pessoas ou coisas, sendo parafraseável por «que número de», «que quantidade de»	Quantas vezes é que já saí de grandes superfícies de mãos a abanar?	quantas vezes	
+L23	1	qualquer elemento de entre um conjunto de semelhantes, com valor distributivo, e usa-se no singular 	Fomos todos passar duas semanas ao Algarve.		coletivo abstrato_estado
+L23	2	integridade de pessoa ou coisa, com valor adjetival, e usa-se no singular, omitindo-se o artigo definido, quando seguido de pronome pessoal 	Naquele momento aquele pequeno ser é a nossa vida toda. 		
+L24	7	dar um ou mais pequenos toques ou pancadas em	Certo dia, o pai encontrou Dinis a bater numa parede com o nariz.		abstrato_ação
+L24	8	dar pequenas pancadas com nós dos dedos ou com qualquer objeto numa porta, para pedir entrada	A tua mãe bateu à porta do quarto.	bater à porta	
+L24	9	dar várias pancadas com as mãos ou com um instrumento numa superfície, num objeto ou fazê-la embater contra algum obstáculo	Outras gostam de fazer barulho na noite de passagem de ano, batendo com as tampas das panelas para afugentar o ano velho. 		
+L24	5	fazer chocar ou chocar uma coisa com outra, com força	A chuva bate furiosamente na janela, o vento agita as cortinas.		abstrato_ação
+L24	6	ir, um automóvel, contra outro ou contra um obstáculo	Ele teve um acidente: bateu de frente.		
+L25	2	unir-se a alguém através do casamento	As três acabaram por casar com resineiros.		humano abstrato_ação abstrato_evento
+L25	3	promover o casamento de alguém	Podes casar com a minha filha, podes ser rei quando eu morrer, podes ser tudo o que tu quiseres!		
+L26	4	deixar temporariamente o local onde se habita para tomar parte em atividades de caráter social ou lúdico	Excelente para sair à noite com os amigos.	sair à noite	humano abstrato_ação abstrato_evento
+L26	21	ir para fora de casa partilhando com alguém uma diversão ou outra atividade social			
+L26	1	abandonar o local onde se está; passar do interior de um espaço fechado para o exterior	Depois de a minha mãe sair do quarto, aconteceu uma coisa estranha.		abstrato_ação locativo
+L26	2	abandonar o local onde se está com o objetivo de ir fazer alguma coisa	Ao sair para a escola a mãe disse-lhe:  -Volta depressa porque há muita roupa para lavar. 		
+L26	3	deixar o local onde se trabalha ou estuda, concluída a tarefa diária	Tenho saído do escritório todos os dias pelas onze horas da noite. 		
+L26	5	abandonar, um meio de transporte, a estação de embarque, rumo ao seu destino	Se algum barco sai hoje ao mar, afunda-se!		
+L27	3	exercer a profissão de vendedor por conta própria ou por conta de outrem; fazer comércio de determinada mercadoria	Faz bolinhos que a nossa avó vende no mercado, todas as manhãs. 		humano abstrato_estado
+L27	1	passar alguma coisa para a posse de alguém, em troca de determinada quantia em dinheiro; fazer a venda de	As castanhas assadas vendem-se nas ruas das cidades portuguesas 		humano abstrato_ação
+L27	2	ter, um estabelecimento, uma firma comercial, determinada mercadoria disponível para compra; ter para venda	É uma pequena loja que vende jornais e revistas.		
+L28	4	ser comprado com facilidade pelo público; ser vendável	É o terceiro bolo mais vendido nas pastelarias.		abstrato_estado
+L28	14	não saber onde se encontra, onde pôs, deixou ou colocou	Colocou a mala da senhora no chão e perdeu o dinheiro. 		
+L28	12	não apanhar um veículo, um meio de transporte, por ter chegado atrasado	la perder o comboio, de certeza!		humano abstrato_ação
+L28	5	deixar de ter, de possuir, uma característica, qualidade, defeito; ficar privado de; ficar sem	O início era bom, mas depois perde o interesse.		abstrato_evento

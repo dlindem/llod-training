@@ -12,23 +12,23 @@ with open('data/bop_concept_map.csv') as mappingcsv:
 			entity_map[mapping[0]] = mapping[1]
 print(f'Loaded {str(len(entity_map))} existing entity mappings.')
 
-# pos_map = {
-# 	"noun": "Q11",
-# 	"none": "Q12"
-# }
-#
-# lang_map = {
-# 	"de": "Q13",
-# 	"en": "Q15",
-# 	"fr": "Q14"
-# }
-#
-# gender_map = {
-# 	"none": "",
-# 	"masculine": "",
-# 	"feminine": "",
-# 	"neuter": ""
-# }
+pos_map = {
+	"noun": "Q11",
+	"none": "Q12"
+}
+
+lang_map = {
+	"de": "Q13",
+	"en": "Q15",
+	"fr": "Q14"
+}
+
+gender_map = {
+	"none": "",
+	"masculine": "",
+	"feminine": "",
+	"neuter": ""
+}
 
 rdffile = "data/bop_data.rdf"
 # dictitem = "Q38"

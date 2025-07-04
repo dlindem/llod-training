@@ -8,3 +8,11 @@ abstract_event,Q32
 animal,Q33
 locativo,Q34
 collective,Q35
+abstrato_ação,Q28
+concreto,Q29
+abstrato_estado,Q30
+abstrato_evento,Q32
+humano,Q31
+coletivo,Q35
+
+
